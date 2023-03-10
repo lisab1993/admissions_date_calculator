@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Progress Report Calculator</h1>
+    <h3>Calculate End Date</h3>
+    <div>
+        Start Date:
+        <input id="start_end" type="date">
+    </div>
+    <div>
+        Required Class Days:
+        <input id="class_days" type="number" >
+    </div>
+    <div>
+        <button id="calc_btn" >Calculate!</button>
+    </div>
+
+
+    <h3>Progress Report Days (known end date)</h3>
+    <div>
+        Start Date:
+        <input id="start_date" type="date">
+    </div>
+    <div>
+        End Date:
+        <input id="end_date" type="date">
+    </div>
+    <br />
+    <br />
+
+    <div>
+        1st Percentage:
+        <input id="first_percent" type="number" value="25">
+    </div>
+    <div>
+        2nd Percentage:
+        <input id="second_percent" type="number" value="45">
+    </div>
+    <div>
+        3rd Percentage:
+        <input id="third_percent" type="number" value="75">
+    </div>
+    <br>
+    <br />
+
+    <div>
+        <span>1st Date: <span id="first_output"></span></span>
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <span>2nd Date: <span id="second_output"></span></span>
+        <br>
+        <br>
+    </div>
+
+    <div>
+        <span>3rd Date: <span id="third_output"></span></span>
+        <br>
+        <br>
+    </div>
+    <div>
+        <button id="btn">Go</button>
+    </div>
+    <br>
+    <br />
+    All Dates:
+    <div id="all_dates">
+
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
